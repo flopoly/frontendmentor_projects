@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    margin: 10px 40px;
+    line-height: 1.5rem;
+    color: lightslategray;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card {
+    margin: auto;
+    width: 355px;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.header-img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.plan-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    border-radius: 20px;
+}
+
+.plan-section p {
+    line-height: 1rem;
+}
+
+.plan-type {
+    margin: 0;
+}
+
+.plan-name {
+    font-weight: 600;
+    color: black;
+}
+
+.plan-price {
+    color: lightslategray;
+}
+
+.btn-proceed {
+    margin-top: 30px;
+    width: 80%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.btn-proceed:hover {
+    background-color: hsl(258, 77%, 72%);
+    cursor: pointer;
+    box-shadow: 0px 15px 10px rgb(219, 219, 219);
+}
+
+.btn-cancel {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: lightslategray;
+    background: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-cancel:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/***********************************************/
+.attribution {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
